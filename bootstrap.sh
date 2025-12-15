@@ -129,7 +129,7 @@ cp -v /opt/fakeroot-bootstrap/usr/bin/* /usr/bin/.
 echo "-> Finalizing fakeroot installation via package manager (update first)"
 FAKEROOTDONTTRYCHOWN=1 fakeroot-tcp bash -c "
   $PM update -y
-  if [[ $PM == "dnf" ]] && ! grep -qi fedora /etc/os-release ; then
+  if [[ $PM == "dnf" ]] && ! grep -qi '^ID=.*fedora' /etc/os-release; then
     $PM install -y epel-release
   fi
   $PM install -y fakeroot
