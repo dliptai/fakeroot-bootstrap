@@ -53,9 +53,9 @@ wget http://ftp.de.debian.org/debian/pool/main/f/fakeroot/fakeroot_1.25.3-1.1_am
 
 or, if your container is RHEL-based
 ```bash
-    wget https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-46.el8.x86_64.rpm
-    wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/f/fakeroot-libs-1.33-1.el8.x86_64.rpm
-    wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/f/fakeroot-1.33-1.el8.x86_64.rpm
+wget https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-46.el8.x86_64.rpm
+wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/f/fakeroot-libs-1.33-1.el8.x86_64.rpm
+wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/f/fakeroot-1.33-1.el8.x86_64.rpm
 ```
 
 In the definition file
