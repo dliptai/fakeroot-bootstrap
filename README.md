@@ -23,7 +23,7 @@ From: almalinux:8
 
     # Use newly installed fakeroot to install other packages
     FAKEROOTDONTTRYCHOWN=1 fakeroot bash -c '
-        dnf update
+        dnf update -y
         dnf install -y openssh
     '
 ```
