@@ -78,7 +78,7 @@ From: debian:11
     # Use newly installed fakeroot to install other packages
     FAKEROOTDONTTRYCHOWN=1 fakeroot bash -c '
         apt update -y
-        apt install -y openssh
+        apt install -y openssh-server
     '
 ```
 
