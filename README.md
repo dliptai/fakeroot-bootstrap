@@ -31,7 +31,7 @@ Remember to build with the `--ignore-fakeroot-command` command line argument
 apptainer build --ignore-fakeroot-command mycontainer.sif mycontainer.def
 ```
 
-Note: if your base container doesn't have `wget`, try `curl -O`.
+Note: if your base container doesn't have `curl`, try `wget`.
 
 
 ### Offline mode (pre-downloaded packages)
