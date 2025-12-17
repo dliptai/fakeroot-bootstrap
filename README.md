@@ -1,6 +1,8 @@
 # fakeroot-bootstrap
 
-A bootstrap script for installing `fakeroot` in containerised environments like Apptainer/Singularity. Useful when you cannot bind fakeroot in from the host during a container build because of a mismatch in GLIBC versions between the container and the host.
+A bootstrap script for installing `fakeroot` in containerised environments like Apptainer/Singularity.
+
+Useful when you cannot bind fakeroot in from the host during a container build because of a mismatch in GLIBC versions between the container and the host.
 
 See: https://apptainer.org/docs/user/main/fakeroot.html#using-fakeroot-command-inside-definition-file
 
